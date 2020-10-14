@@ -11,24 +11,28 @@ var scontoOver=prezzobiglietto * 40 /100;
 var prezzoOver=prezzobiglietto - scontoOver;
 
 
-if (etàUtente < 18)
-alert(prezzoMinori);
-document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzoMinori;
+if (etàUtente < 18){
+    alert(prezzoMinori);
+    document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzoMinori;
+    
+}
 
-else if(etàUtente > 65);
-alert(prezzoOver);
-document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzoOver;
-else
-alert(prezzobiglietto)
-document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzobiglietto;
-// if (etàUtente <18)
-// alert(prezzobiglietto - scontoMinorenni)
 
-// alert('costo totale '+ prezzobiglietto+' euro');
+else if(etàUtente > 65){
+    alert(prezzoOver);
+    document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzoOver;
+}
+
+else{
+    alert(prezzobiglietto)
+    document.getElementById('biglietto').innerHTML= 'il prezzo totale è di euro '+ prezzobiglietto;
+}
+
+
+
 
 
 
 /*
 arrotondamento
 */
-document.getElementById("demo").innerHTML = Math.random(); 
