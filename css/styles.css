@@ -1,3 +1,9 @@
 h1{
-    color: red;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 200px;
+}
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2018/02/03/17/45/transport-system-3128152_960_720.jpg) ;
+    background-size: cover;
 }
